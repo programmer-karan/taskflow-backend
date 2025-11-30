@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlmodel
+alembic
+asyncpg
+aioredis
+pytest
+httpx

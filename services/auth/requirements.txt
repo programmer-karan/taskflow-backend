@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-jose
+passlib[argon2]
+sqlmodel
+alembic
+asyncpg
+aioredis
+pytest
+httpx
