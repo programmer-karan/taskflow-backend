@@ -46,7 +46,7 @@ test: install docker-up
 	@$(PY) -m pytest -v
 
 docker-up:
-	docker compose up -d postgres redis
+	docker compose up -d 
 
 docker-down:
     # Stop containers but keep volumes (data)

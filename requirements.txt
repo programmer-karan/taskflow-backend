@@ -13,3 +13,4 @@ greenlet
 alembic
 python-multipart
 python-jose
+boto3
