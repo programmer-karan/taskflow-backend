@@ -53,5 +53,7 @@ jobs:
           # This tells your code to connect to the "Service Container" above
           DATABASE_URL: postgresql+asyncpg://user:password@localhost:5432/test_db
           REDIS_URL: redis://localhost:6379/0
+          # Add the current directory (.) to the Python path
+          PYTHONPATH: .
         run: |
           pytest -v
